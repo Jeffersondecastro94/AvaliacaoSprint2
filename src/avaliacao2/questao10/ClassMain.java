@@ -28,7 +28,7 @@ public class ClassMain {
 		String resultadoSentimentos = sentimentoModel.resultadoSentimento(chateado, divertido);
 
 		insert.insertBanco(resultadoSentimentos);
-
+		System.out.println(resultadoSentimentos);
 	}
 
 }
